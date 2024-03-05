@@ -10,3 +10,31 @@
 body {
   font-family: "Poppins", "sans-serif";
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(90, 90, 90);
+}
+
+/* TRANSITION */
+
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
+/* NAVIGATION */
+
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
